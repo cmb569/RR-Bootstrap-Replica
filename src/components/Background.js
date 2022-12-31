@@ -5,7 +5,7 @@ export default function Background() {
     return (
         <div style={{ display: "flex", flexDirection: "row" }}>
             <div>
-                <Card style={{ width: "1300px", minHeight: "428px", marginBottom: "50px", backgroundColor: "#DEEED6" }} className="text-black">
+                <Card style={{ width: "1300px", minHeight: "428px", marginBottom: "50px", backgroundColor: "#DEEED6", border: "none"}} className="text-black">
                     <div style={{ top: "auto", width: "578px", marginLeft: "100px", marginBottom: "50px", marginTop: "75px"}}>
                         <Card.Text style={{ fontSize: "2.5em", fontWeight: "bold" }}>
                             Order groceries for delivery <br /> or pickup today
